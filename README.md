@@ -32,7 +32,7 @@ Use BEM naming conventions:
 
 ## Contributors
 
-[JoseMaster](https://github.com/innorbitx)
+[JoseMaster](https://github.com/innorbitx) |
 [AbrahamDN](https://github.com/AbrahamDN) |
 [Matthew-Nicholson](https://github.com/Matthew-Nicholson)
 [Zaltick](https://github.com/soniclinkerman) |
