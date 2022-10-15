@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { useControls } from "leva";
+import { useControls, Leva } from "leva";
 
 import Head from "next/head";
 import Image from "next/image";
@@ -10,7 +10,6 @@ export default function Home() {
   function Box(props) {
     // This reference will give us direct access to the mesh
     const mesh = useRef();
-    console.log(mesh);
 
     let { x, y, z, color } = useControls({ x: 1, y: 1, z: 1, color: "#11aaff" });
 
@@ -36,6 +35,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Leva />
       <Canvas flat="false">
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
